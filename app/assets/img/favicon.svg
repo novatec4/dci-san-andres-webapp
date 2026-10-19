@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="aeaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8734A" />
+      <stop offset="100%" stop-color="#C85A32" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#aeaGrad)" />
+  <!-- Inner circular glow -->
+  <circle cx="32" cy="32" r="24" fill="#ffffff" opacity="0.15" />
+  <!-- Ayuda en Accion Emblem / Child Care Symbol -->
+  <circle cx="32" cy="22" r="7" fill="#ffffff" />
+  <path d="M16 46c0-8.837 7.163-16 16-16s16 7.163 16 16c0 1.5-1 2.5-2.5 2.5h-27C17 48.5 16 47.5 16 46z" fill="#ffffff" />
+  <!-- Protective Accent Arc -->
+  <path d="M14 36c-2.5 5 0 11 4 14" stroke="#FFE4D6" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M50 36c2.5 5 0 11-4 14" stroke="#FFE4D6" stroke-width="3" stroke-linecap="round" fill="none" />
+</svg>

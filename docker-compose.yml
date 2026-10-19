@@ -1,0 +1,65 @@
+services:
+  db:
+    image: postgis/postgis:15-3.3-alpine
+    container_name: cdi_aea_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: dci_geodb
+      POSTGRES_USER: dci_user
+      POSTGRES_PASSWORD: dci_password_2026
+    ports:
+      - "${DB_PORT:-5434}:5432"
+    volumes:
+      - cdi_aea_pgdata:/var/lib/postgresql/data
+      - ./init_db:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dci_user -d dci_geodb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - cdi_aea_net
+    deploy:
+      resources:
+        limits:
+          cpus: '1.00'
+          memory: 512M
+    labels:
+      - "project=CDI-AEA"
+      - "component=PostGIS-Geodatabase"
+      - "maintainer=Ayuda en Accion / ESPOCH"
+      - "environment=production"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cdi_aea_webapp
+    restart: unless-stopped
+    ports:
+      - "${WEB_BIND_IP:-127.0.0.1}:${HOST_PORT:-8086}:80"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - cdi_aea_net
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 256M
+    labels:
+      - "project=CDI-AEA"
+      - "component=Web-App-CGPI"
+      - "maintainer=Ayuda en Accion / ESPOCH"
+      - "environment=production"
+
+networks:
+  cdi_aea_net:
+    name: cdi_aea_network
+    driver: bridge
+
+volumes:
+  cdi_aea_pgdata:
+    name: cdi_aea_postgres_data

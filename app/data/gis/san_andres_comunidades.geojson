@@ -1,0 +1,923 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio San Andr\u00e9s Centro",
+        "tipo": "Barrio Urbano (Cabecera)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7017,
+          -1.5917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio Los Pinos",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6985,
+          -1.5902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio La Cruz",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7035,
+          -1.588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio Santa Rosa",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7002,
+          -1.5945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio Panader\u00eda",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.706,
+          -1.5925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio Chimborazo",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.708,
+          -1.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio C\u00e9sar Naveda",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.697,
+          -1.596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barrio El Calvario",
+        "tipo": "Barrio Urbano",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.704,
+          -1.598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Tuntatacto",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7221,
+          -1.5296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Batzac\u00f3n",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7165,
+          -1.5974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Pulingu\u00ed",
+        "tipo": "Comunidad Rural (Faldas Chimborazo)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7508,
+          -1.5654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Tunsalao (Pulingui)",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.74,
+          -1.582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Cuatro Esquinas (4 Esquinas)",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Calshi",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7436,
+          -1.5525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad La Silveria",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.752,
+          -1.5429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Santa Luc\u00eda de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7597,
+          -1.5198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad San Rafael de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7401,
+          -1.5104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Santa Rosa de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.748,
+          -1.515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Urbina",
+        "tipo": "Comunidad Rural (Eje Norte)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Cochapamba",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7086,
+          -1.516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Paquibug San Gerardo",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7341,
+          -1.5572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Paquibug San Pablo",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7235,
+          -1.5592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Santa Marianita de Tambohuasha",
+        "tipo": "Comunidad Rural (Chimborazo)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7849,
+          -1.5538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad La Delicia",
+        "tipo": "Comunidad Rural (Chimborazo)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7775,
+          -1.5651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Jatari Campesino",
+        "tipo": "Comunidad Rural (Chimborazo)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.755,
+          -1.5803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Rumicruz",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7571,
+          -1.5721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Gaushi Chico",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7412,
+          -1.5941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad San Jos\u00e9 de Gaushi",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7323,
+          -1.6072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Uchanchi",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7157,
+          -1.6119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Nitiluisa",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7219,
+          -1.6293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Sigsipamba (Hacienda)",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6959,
+          -1.6122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Langos San Andr\u00e9s",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.685,
+          -1.615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad La Paz",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.691,
+          -1.608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Miraflores",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.692,
+          -1.599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad San Isidro",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6892,
+          -1.5841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad El Carmen",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6793,
+          -1.6231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Laturum",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.745,
+          -1.571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Tagualag",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.741,
+          -1.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Sanjabamba",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.738,
+          -1.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Tomapampa",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.746,
+          -1.535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad 12 de Octubre",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.735,
+          -1.525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad El Quinual",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.718,
+          -1.538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Hierba Buena",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad La Esperanza",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Llio (Llin Llin)",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.715,
+          -1.536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Tatacto",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711,
+          -1.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad El Rosal",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad El Progreso",
+        "tipo": "Comunidad Rural",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Chorrera Mirador",
+        "tipo": "Comunidad Rural (Alta)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.788,
+          -1.568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad Mauca Corral",
+        "tipo": "Comunidad Rural (Alta)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.795,
+          -1.558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Comunidad El Cielo",
+        "tipo": "Comunidad Rural (Alta)",
+        "parroquia": "San Andr\u00e9s",
+        "canton": "Guano",
+        "provincia": "Chimborazo",
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.802,
+          -1.549
+        ]
+      }
+    }
+  ]
+}

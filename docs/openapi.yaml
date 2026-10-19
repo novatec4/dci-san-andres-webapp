@@ -1,0 +1,119 @@
+openapi: 3.0.3
+info:
+  title: API Modelo de Producción Estadística (MPE) - Proyecto DCI
+  version: 2.3.5
+  description: >-
+    Especificación de la interfaz de programación y esquemas de datos del
+    Componente A.3.1: Caracterización Georreferenciada de la Población Infantil
+    en San Andrés (0 a 5 años / 0-59 meses cumplidos). Convenio Ayuda en Acción / ESPOCH.
+servers:
+  - url: http://localhost:8086
+    description: Servidor Local Docker (Nginx SPA)
+  - url: https://kf.kobotoolbox.org/api/v2
+    description: Servidor KoBoToolbox REST API
+
+paths:
+  /verificar.html:
+    get:
+      summary: Validación Pública de Credencial de Brigadista
+      description: Endpoint accesible para familias y autoridades para verificar identidad y vigencia.
+      parameters:
+        - name: id
+          in: query
+          required: true
+          schema:
+            type: string
+            example: ESPOCH-BRIG-09
+      responses:
+        '200':
+          description: Ficha de validación institucional con estado TEM, zona asignada y aval CEISH.
+
+  /api/v2/assets/{asset_uid}/data.json:
+    get:
+      summary: Extracción de Envíos de KoBoToolbox
+      description: Ingesta de formularios XLSForms con las 147 variables bioestadísticas y antropométricas.
+      parameters:
+        - name: asset_uid
+          in: path
+          required: true
+          schema:
+            type: string
+            example: aWf8Z2SanAndresDCI2026
+      responses:
+        '200':
+          description: Colección GeoJSON / JSON de encuestas de campo.
+
+components:
+  schemas:
+    Brigadista:
+      type: object
+      properties:
+        id:
+          type: string
+          example: ESPOCH-BRIG-09
+        nombres:
+          type: string
+          example: Dennys Franklin Rojas
+        cedula_ofuscada:
+          type: string
+          example: 060412****
+        carrera:
+          type: string
+          example: Nutrición y Dietética - ESPOCH
+        pao:
+          type: string
+          example: PAO 8
+        rol:
+          type: string
+          example: Asistente de Medición Antropométrica (TEM)
+        dupla:
+          type: string
+          example: Dupla 05
+        estado:
+          type: string
+          example: ACTIVO - CERTIFICADO TEM
+        vigencia:
+          type: string
+          example: 18 Ago - 18 Oct 2026
+
+    AntropometriaInfante:
+      type: object
+      properties:
+        id_sujeto:
+          type: string
+          example: SA-NIN-0042
+        edad_meses:
+          type: integer
+          minimum: 0
+          maximum: 59
+          example: 24
+        sexo:
+          type: string
+          enum: [M, F]
+          example: M
+        peso_kg:
+          type: number
+          format: float
+          example: 12.1
+        talla_cm:
+          type: number
+          format: float
+          example: 87.8
+        edema_bilateral:
+          type: string
+          enum: [n, y]
+          example: n
+        haz:
+          type: number
+          format: float
+          description: Z-score Talla para la Edad (OMS 2006)
+          example: 0.00
+        waz:
+          type: number
+          format: float
+          description: Z-score Peso para la Edad (OMS 2006)
+          example: -0.05
+        es_dci:
+          type: boolean
+          description: Verdadero si HAZ < -2.00 DE
+          example: false

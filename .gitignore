@@ -1,0 +1,39 @@
+# Dependencias y entornos
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secretos y variables de entorno
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Paquetes de distribución comprimidos
+*.zip
+*.tar.gz
+*.rar
+
+# Logs y reportes
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.nyc_output/
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Temporales de despliegue
+dist/
+.vercel
+tmp/
+scratch/

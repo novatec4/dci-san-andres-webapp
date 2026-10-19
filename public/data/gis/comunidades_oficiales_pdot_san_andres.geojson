@@ -1,0 +1,1227 @@
+{
+  "type": "FeatureCollection",
+  "name": "comunidades_oficiales_pdot_san_andres",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PDOT-01",
+      "properties": {
+        "id_pdot": "PDOT-01",
+        "nombre": "Cabecera Parroquial San Andrés",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.7017,
+        "lat": -1.5917,
+        "equipamiento": "U.E. San Andrés (Inicial - Sede 1), GADPR San Andrés, Subcentro de Salud MSP, Iglesia Matriz, Parque Central, CIBV San Andrés, Concha Acústica, Cancha Múltiple, UPC",
+        "dupla_asignada": "D01",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 83,
+        "poblacion_estimada": 199,
+        "ninos_0_4_estimados": 21,
+        "ninos_meta_asignada": 8,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7017,
+          -1.5917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-02",
+      "properties": {
+        "id_pdot": "PDOT-02",
+        "nombre": "Barrio Los Pinos",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.6985,
+        "lat": -1.5902,
+        "equipamiento": "U.E. San Andrés (Sede 2), Cuerpo de Bomberos de San Andrés",
+        "dupla_asignada": "D02",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 80,
+        "poblacion_estimada": 192,
+        "ninos_0_4_estimados": 20,
+        "ninos_meta_asignada": 8,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6985,
+          -1.5902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-03",
+      "properties": {
+        "id_pdot": "PDOT-03",
+        "nombre": "Barrio Los Retoños",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.7005,
+        "lat": -1.589,
+        "equipamiento": "Coliseo Cerrado, Cancha Sintética, Juegos Infantiles, Salón de Actos",
+        "dupla_asignada": "D03",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 60,
+        "poblacion_estimada": 144,
+        "ninos_0_4_estimados": 15,
+        "ninos_meta_asignada": 6,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7005,
+          -1.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-04",
+      "properties": {
+        "id_pdot": "PDOT-04",
+        "nombre": "Barrio Chimborazo",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.708,
+        "lat": -1.5895,
+        "equipamiento": "Mercado Municipal de San Andrés, Comercio Central",
+        "dupla_asignada": "D04",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 55,
+        "poblacion_estimada": 132,
+        "ninos_0_4_estimados": 14,
+        "ninos_meta_asignada": 5,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.708,
+          -1.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-05",
+      "properties": {
+        "id_pdot": "PDOT-05",
+        "nombre": "Barrio El Calvario",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.704,
+        "lat": -1.598,
+        "equipamiento": "Capilla El Calvario, Mirador Urbano Sur",
+        "dupla_asignada": "D05",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 237,
+        "poblacion_estimada": 568,
+        "ninos_0_4_estimados": 60,
+        "ninos_meta_asignada": 23,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.704,
+          -1.598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-06",
+      "properties": {
+        "id_pdot": "PDOT-06",
+        "nombre": "Barrio La Cruz",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.7035,
+        "lat": -1.588,
+        "equipamiento": "Cancha de Uso Múltiple La Cruz, Mirador Cruz Central",
+        "dupla_asignada": "D06",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 52,
+        "poblacion_estimada": 125,
+        "ninos_0_4_estimados": 13,
+        "ninos_meta_asignada": 5,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7035,
+          -1.588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-07",
+      "properties": {
+        "id_pdot": "PDOT-07",
+        "nombre": "Barrio La Panadería",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.706,
+        "lat": -1.5925,
+        "equipamiento": "Mirador La Panadería, Juegos Infantiles, UPC, Estadio de Césped, Cementerio Parroquial",
+        "dupla_asignada": "D07",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 58,
+        "poblacion_estimada": 139,
+        "ninos_0_4_estimados": 15,
+        "ninos_meta_asignada": 6,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.706,
+          -1.5925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-08",
+      "properties": {
+        "id_pdot": "PDOT-08",
+        "nombre": "Barrio Santa Rosa",
+        "tipo": "Urbano",
+        "macro_sector": "Sector A",
+        "lon": -78.7002,
+        "lat": -1.5945,
+        "equipamiento": "Mirador Santa Rosa, Juegos Infantiles, Cancha Barrial",
+        "dupla_asignada": "D08",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 97,
+        "poblacion_estimada": 233,
+        "ninos_0_4_estimados": 25,
+        "ninos_meta_asignada": 9,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7002,
+          -1.5945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-09",
+      "properties": {
+        "id_pdot": "PDOT-09",
+        "nombre": "Comunidad Miraflores",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.692,
+        "lat": -1.599,
+        "equipamiento": "Casa Comunal Miraflores, Cancha Deportiva con Graderío, Conchas Acústicas 1 y 2, Juegos Infantiles",
+        "dupla_asignada": "D09",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 270,
+        "poblacion_estimada": 647,
+        "ninos_0_4_estimados": 69,
+        "ninos_meta_asignada": 26,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.692,
+          -1.599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-10",
+      "properties": {
+        "id_pdot": "PDOT-10",
+        "nombre": "Comunidad Langos La Paz",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.691,
+        "lat": -1.608,
+        "equipamiento": "Casa Comunal Langos La Paz, Cancha de Uso Múltiple con Graderío, Iglesia",
+        "dupla_asignada": "D10",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 56,
+        "poblacion_estimada": 134,
+        "ninos_0_4_estimados": 14,
+        "ninos_meta_asignada": 5,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.691,
+          -1.608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-11",
+      "properties": {
+        "id_pdot": "PDOT-11",
+        "nombre": "Comunidad Langos San Andrés",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.685,
+        "lat": -1.615,
+        "equipamiento": "Casa Comunal Langos San Andrés, Cancha de Uso Múltiple con Graderío, Iglesia",
+        "dupla_asignada": "D11",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 340,
+        "poblacion_estimada": 815,
+        "ninos_0_4_estimados": 87,
+        "ninos_meta_asignada": 33,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.685,
+          -1.615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-12",
+      "properties": {
+        "id_pdot": "PDOT-12",
+        "nombre": "Comunidad Sigsipamba",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.6959,
+        "lat": -1.6122,
+        "equipamiento": "Casa Comunal Sigsipamba, Cancha Deportiva con Graderío, Concha Acústica, Iglesia",
+        "dupla_asignada": "D12",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 162,
+        "poblacion_estimada": 388,
+        "ninos_0_4_estimados": 41,
+        "ninos_meta_asignada": 15,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6959,
+          -1.6122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-13",
+      "properties": {
+        "id_pdot": "PDOT-13",
+        "nombre": "Comunidad Uchanchi",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.7157,
+        "lat": -1.6119,
+        "equipamiento": "U.E. José Martí, Cancha Deportiva, Concha Acústica, Iglesia, Estadio con Cerramiento",
+        "dupla_asignada": "D12",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 267,
+        "poblacion_estimada": 640,
+        "ninos_0_4_estimados": 68,
+        "ninos_meta_asignada": 26,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7157,
+          -1.6119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-14",
+      "properties": {
+        "id_pdot": "PDOT-14",
+        "nombre": "Comunidad Batzacán",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.7165,
+        "lat": -1.5974,
+        "equipamiento": "Estadio de Césped con Cerramiento, Capilla, Cancha Deportiva, Instalaciones CNH",
+        "dupla_asignada": "D12",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 325,
+        "poblacion_estimada": 779,
+        "ninos_0_4_estimados": 83,
+        "ninos_meta_asignada": 31,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7165,
+          -1.5974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-15",
+      "properties": {
+        "id_pdot": "PDOT-15",
+        "nombre": "Comunidad Balzayán",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.71,
+        "lat": -1.582,
+        "equipamiento": "Escuela Fiscal Cacique Toca, Iglesia, Concha Acústica, Canchas de Uso Múltiple y Volley, Estadio de Tierra",
+        "dupla_asignada": "D12",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 97,
+        "poblacion_estimada": 233,
+        "ninos_0_4_estimados": 25,
+        "ninos_meta_asignada": 9,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71,
+          -1.582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-16",
+      "properties": {
+        "id_pdot": "PDOT-16",
+        "nombre": "Comunidad El Rosal",
+        "tipo": "Rural",
+        "macro_sector": "Sector A",
+        "lon": -78.728,
+        "lat": -1.589,
+        "equipamiento": "Escuela Rosaliza Jara, Casas Comunales Nueva y Vieja, Cancha de Uso Múltiple con Graderío",
+        "dupla_asignada": "D12",
+        "supervisor": "ND. Verónica Delgado",
+        "viviendas_satelitales": 62,
+        "poblacion_estimada": 149,
+        "ninos_0_4_estimados": 16,
+        "ninos_meta_asignada": 6,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-17",
+      "properties": {
+        "id_pdot": "PDOT-17",
+        "nombre": "Comunidad Tuntatacto",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.7221,
+        "lat": -1.5296,
+        "equipamiento": "U.E. Tuntatacto, Coliseo Tuntatacto, Plaza, Iglesia, Estadio de Tierra, Asociación MADRILACT, Concha Acústica, Junta Agua Potable, Casa Comunal",
+        "dupla_asignada": "D13",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 256,
+        "poblacion_estimada": 614,
+        "ninos_0_4_estimados": 65,
+        "ninos_meta_asignada": 30,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7221,
+          -1.5296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-18",
+      "properties": {
+        "id_pdot": "PDOT-18",
+        "nombre": "Comunidad Tatacto",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.711,
+        "lat": -1.532,
+        "equipamiento": "Casa Comunal Tatacto, Puesto de Salud de Tatacto, Iglesia, Estadio de Tierra, Cancha Múltiple",
+        "dupla_asignada": "D14",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 0,
+        "poblacion_estimada": 0,
+        "ninos_0_4_estimados": 0,
+        "ninos_meta_asignada": 1,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711,
+          -1.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-19",
+      "properties": {
+        "id_pdot": "PDOT-19",
+        "nombre": "Comunidad Llio",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.715,
+        "lat": -1.536,
+        "equipamiento": "Casa Comunal Llio, Cancha de Uso Múltiple, Oficina del Agua Potable",
+        "dupla_asignada": "D15",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 6,
+        "poblacion_estimada": 14,
+        "ninos_0_4_estimados": 1,
+        "ninos_meta_asignada": 1,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.715,
+          -1.536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-20",
+      "properties": {
+        "id_pdot": "PDOT-20",
+        "nombre": "Comunidad El Quinual",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.718,
+        "lat": -1.538,
+        "equipamiento": "Casa Comunal El Quinual, Cancha de Uso Múltiple con Graderío, Iglesia",
+        "dupla_asignada": "D16",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 129,
+        "poblacion_estimada": 309,
+        "ninos_0_4_estimados": 33,
+        "ninos_meta_asignada": 15,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.718,
+          -1.538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-21",
+      "properties": {
+        "id_pdot": "PDOT-21",
+        "nombre": "Comunidad Cuatro Esquinas",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.7333,
+        "lat": -1.5667,
+        "equipamiento": "Estadio de Césped con Cerramiento Cuatro Esquinas, Sede Social",
+        "dupla_asignada": "D17",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 228,
+        "poblacion_estimada": 547,
+        "ninos_0_4_estimados": 58,
+        "ninos_meta_asignada": 27,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-22",
+      "properties": {
+        "id_pdot": "PDOT-22",
+        "nombre": "Comunidad Calshi Grande",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.7436,
+        "lat": -1.5525,
+        "equipamiento": "Centro de Salud Tipo A Calshi, Escuela Rep. Federal de Alemania, Junta Campesinado, Jardín Semillitas, Coliseo, Cementerio",
+        "dupla_asignada": "D18",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 160,
+        "poblacion_estimada": 384,
+        "ninos_0_4_estimados": 41,
+        "ninos_meta_asignada": 19,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7436,
+          -1.5525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-23",
+      "properties": {
+        "id_pdot": "PDOT-23",
+        "nombre": "Comunidad Calshi Hierba Buena",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.728,
+        "lat": -1.545,
+        "equipamiento": "Casa Comunal Hierba Buena, Casa Barrial, Iglesia, Cancha Deportiva con Graderío, Estadio de Tierra",
+        "dupla_asignada": "D19",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 175,
+        "poblacion_estimada": 420,
+        "ninos_0_4_estimados": 45,
+        "ninos_meta_asignada": 21,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-24",
+      "properties": {
+        "id_pdot": "PDOT-24",
+        "nombre": "Comunidad El Progreso",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.725,
+        "lat": -1.602,
+        "equipamiento": "Casa Comunal El Progreso, Cancha de Uso Múltiple, Concha Acústica, Iglesia",
+        "dupla_asignada": "D20",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 35,
+        "poblacion_estimada": 84,
+        "ninos_0_4_estimados": 9,
+        "ninos_meta_asignada": 4,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-25",
+      "properties": {
+        "id_pdot": "PDOT-25",
+        "nombre": "Comunidad La Esperanza",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.725,
+        "lat": -1.575,
+        "equipamiento": "Casa Comunal La Esperanza, Canchas Múltiples 1 y 2, Estadio de Tierra, Infraestructura Educativa",
+        "dupla_asignada": "D21",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 270,
+        "poblacion_estimada": 647,
+        "ninos_0_4_estimados": 69,
+        "ninos_meta_asignada": 32,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-26",
+      "properties": {
+        "id_pdot": "PDOT-26",
+        "nombre": "Comunidad Tagualag",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.741,
+        "lat": -1.562,
+        "equipamiento": "Escuela Carlos Zambrano, Junta Agua Potable Tagualag, Centro Acopio Leche, Estadio de Tierra, Iglesia",
+        "dupla_asignada": "D22",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 71,
+        "poblacion_estimada": 170,
+        "ninos_0_4_estimados": 18,
+        "ninos_meta_asignada": 8,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.741,
+          -1.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-27",
+      "properties": {
+        "id_pdot": "PDOT-27",
+        "nombre": "Comunidad Paquibug San Gerardo",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.7341,
+        "lat": -1.5572,
+        "equipamiento": "Escuela Bolívar Chiriboga Baquero, CDI José Manuel Paca, Junta Agua Potable, Casa Comunal, Estadio",
+        "dupla_asignada": "D23",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 141,
+        "poblacion_estimada": 338,
+        "ninos_0_4_estimados": 36,
+        "ninos_meta_asignada": 17,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7341,
+          -1.5572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-28",
+      "properties": {
+        "id_pdot": "PDOT-28",
+        "nombre": "Comunidad Paquibug San Pablo",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.7235,
+        "lat": -1.5592,
+        "equipamiento": "Casa Comunal Paquibug San Pablo, Cancha de Uso Múltiple, Infraestructura Educativa",
+        "dupla_asignada": "D24",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 325,
+        "poblacion_estimada": 779,
+        "ninos_0_4_estimados": 83,
+        "ninos_meta_asignada": 37,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7235,
+          -1.5592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-29",
+      "properties": {
+        "id_pdot": "PDOT-29",
+        "nombre": "Comunidad Sanjapamba",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.738,
+        "lat": -1.548,
+        "equipamiento": "Casa Comunal Sanjapamba, Estadio de Césped con Cerramiento, Cancha con Graderío",
+        "dupla_asignada": "D24",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 63,
+        "poblacion_estimada": 151,
+        "ninos_0_4_estimados": 16,
+        "ninos_meta_asignada": 7,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.738,
+          -1.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-30",
+      "properties": {
+        "id_pdot": "PDOT-30",
+        "nombre": "Comunidad Tomapamba",
+        "tipo": "Rural",
+        "macro_sector": "Sector B",
+        "lon": -78.746,
+        "lat": -1.535,
+        "equipamiento": "Infraestructura Educativa Tomapamba, Cancha de Uso Múltiple, Iglesia",
+        "dupla_asignada": "D24",
+        "supervisor": "Mgs. Vilma Velasco",
+        "viviendas_satelitales": 89,
+        "poblacion_estimada": 213,
+        "ninos_0_4_estimados": 23,
+        "ninos_meta_asignada": 11,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.746,
+          -1.535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-31",
+      "properties": {
+        "id_pdot": "PDOT-31",
+        "nombre": "Comunidad Pulingui",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.7508,
+        "lat": -1.5654,
+        "equipamiento": "U.E. 11 de Noviembre, Casa Comunal Pulingui, Plaza de Rastro Pulingui, Estadio Césped, Parque, Iglesia",
+        "dupla_asignada": "D25",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 216,
+        "poblacion_estimada": 518,
+        "ninos_0_4_estimados": 55,
+        "ninos_meta_asignada": 33,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7508,
+          -1.5654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-32",
+      "properties": {
+        "id_pdot": "PDOT-32",
+        "nombre": "Comunidad Tunsalao",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.74,
+        "lat": -1.582,
+        "equipamiento": "Escuela Tunsalao, Estadio de Césped con Cerramiento, Cancha con Graderío, Iglesia",
+        "dupla_asignada": "D26",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 142,
+        "poblacion_estimada": 340,
+        "ninos_0_4_estimados": 36,
+        "ninos_meta_asignada": 23,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.74,
+          -1.582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-33",
+      "properties": {
+        "id_pdot": "PDOT-33",
+        "nombre": "Comunidad San Francisco Laturun",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.745,
+        "lat": -1.571,
+        "equipamiento": "Casa Comunal Laturun, Cancha de Uso Múltiple, Estadio de Tierra",
+        "dupla_asignada": "D27",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 96,
+        "poblacion_estimada": 230,
+        "ninos_0_4_estimados": 24,
+        "ninos_meta_asignada": 15,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.745,
+          -1.571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-34",
+      "properties": {
+        "id_pdot": "PDOT-34",
+        "nombre": "Comunidad San José de la Silveria",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.752,
+        "lat": -1.5429,
+        "equipamiento": "Casa Comunal La Silveria, Centro de Acopio de Leche, Cancha Múltiple, Iglesia",
+        "dupla_asignada": "D28",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 218,
+        "poblacion_estimada": 523,
+        "ninos_0_4_estimados": 56,
+        "ninos_meta_asignada": 34,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.752,
+          -1.5429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-35",
+      "properties": {
+        "id_pdot": "PDOT-35",
+        "nombre": "Comunidad San Pablo",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.73,
+        "lat": -1.555,
+        "equipamiento": "U.E. San Pablo, Puesto de Salud San Pablo, Casa Comunal, Cancha Múltiple, Estadio de Tierra",
+        "dupla_asignada": "D29",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 95,
+        "poblacion_estimada": 228,
+        "ninos_0_4_estimados": 24,
+        "ninos_meta_asignada": 15,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.73,
+          -1.555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-36",
+      "properties": {
+        "id_pdot": "PDOT-36",
+        "nombre": "Comunidad Santa Rosa de Chuquipogio",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.748,
+        "lat": -1.515,
+        "equipamiento": "Instalación Educativa, Plaza Central, Concha Acústica, Cancha Múltiple con Graderío, Iglesia",
+        "dupla_asignada": "D30",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 54,
+        "poblacion_estimada": 129,
+        "ninos_0_4_estimados": 14,
+        "ninos_meta_asignada": 9,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.748,
+          -1.515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-37",
+      "properties": {
+        "id_pdot": "PDOT-37",
+        "nombre": "Comunidad Santa Lucía de Chuquipogio",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.7597,
+        "lat": -1.5198,
+        "equipamiento": "Escuela Santa Lucía de Chuquipogio, Estadio de Tierra, Iglesia Proyección",
+        "dupla_asignada": "D31",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 104,
+        "poblacion_estimada": 249,
+        "ninos_0_4_estimados": 26,
+        "ninos_meta_asignada": 16,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7597,
+          -1.5198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-38",
+      "properties": {
+        "id_pdot": "PDOT-38",
+        "nombre": "Comunidad San Rafael de Chuquipogio",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.7401,
+        "lat": -1.5104,
+        "equipamiento": "Escuela San Rafael de Chuquipogio, Centro de Acopio de Leche, Junta Agua Potable, Casa Comunal",
+        "dupla_asignada": "D32",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 142,
+        "poblacion_estimada": 340,
+        "ninos_0_4_estimados": 36,
+        "ninos_meta_asignada": 22,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7401,
+          -1.5104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-39",
+      "properties": {
+        "id_pdot": "PDOT-39",
+        "nombre": "Comunidad San Carlos de Chuquipogio",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.745,
+        "lat": -1.512,
+        "equipamiento": "Casa Comunal San Carlos de Chuquipogio",
+        "dupla_asignada": "D33",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 24,
+        "poblacion_estimada": 58,
+        "ninos_0_4_estimados": 6,
+        "ninos_meta_asignada": 4,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.745,
+          -1.512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-40",
+      "properties": {
+        "id_pdot": "PDOT-40",
+        "nombre": "Comunidad Urbina",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.7333,
+        "lat": -1.5,
+        "equipamiento": "Centro de Interpretación y Museo del Hielo Urbina, Estación Ferroviaria Histórica",
+        "dupla_asignada": "D34",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 85,
+        "poblacion_estimada": 204,
+        "ninos_0_4_estimados": 22,
+        "ninos_meta_asignada": 13,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-41",
+      "properties": {
+        "id_pdot": "PDOT-41",
+        "nombre": "Comunidad San Miguel",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.72,
+        "lat": -1.51,
+        "equipamiento": "Casa Comunal San Miguel, Plaza de Toros, Cancha Deportiva, Estadio de Tierra, Iglesia",
+        "dupla_asignada": "D35",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 38,
+        "poblacion_estimada": 91,
+        "ninos_0_4_estimados": 10,
+        "ninos_meta_asignada": 6,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.72,
+          -1.51
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-42",
+      "properties": {
+        "id_pdot": "PDOT-42",
+        "nombre": "Comunidad Mauca Corral",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.795,
+        "lat": -1.558,
+        "equipamiento": "Casa Comunal Mauca Corral, Refugio Andino",
+        "dupla_asignada": "D36",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 0,
+        "poblacion_estimada": 0,
+        "ninos_0_4_estimados": 0,
+        "ninos_meta_asignada": 1,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.795,
+          -1.558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-43",
+      "properties": {
+        "id_pdot": "PDOT-43",
+        "nombre": "Comunidad Cóndor Samana",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.78,
+        "lat": -1.56,
+        "equipamiento": "Casa Comunal Cóndor Samana, Mirador de Páramo",
+        "dupla_asignada": "D36",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 16,
+        "poblacion_estimada": 38,
+        "ninos_0_4_estimados": 4,
+        "ninos_meta_asignada": 3,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.78,
+          -1.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-44",
+      "properties": {
+        "id_pdot": "PDOT-44",
+        "nombre": "Comunidad Arteza",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.785,
+        "lat": -1.55,
+        "equipamiento": "Casa Comunal Arteza, Cancha de Tierra",
+        "dupla_asignada": "D36",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 7,
+        "poblacion_estimada": 17,
+        "ninos_0_4_estimados": 2,
+        "ninos_meta_asignada": 1,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.785,
+          -1.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PDOT-45",
+      "properties": {
+        "id_pdot": "PDOT-45",
+        "nombre": "Comunidad Cabañas del Bosque",
+        "tipo": "Rural",
+        "macro_sector": "Sector C",
+        "lon": -78.79,
+        "lat": -1.545,
+        "equipamiento": "Zona Ecoturística y Refugio de Alta Montaña",
+        "dupla_asignada": "D36",
+        "supervisor": "Dr. Patricio Ramos",
+        "viviendas_satelitales": 0,
+        "poblacion_estimada": 0,
+        "ninos_0_4_estimados": 0,
+        "ninos_meta_asignada": 1,
+        "autoridad_local": "[Por confirmar en territorio con Cabildo Comunal / GAD]"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.79,
+          -1.545
+        ]
+      }
+    }
+  ]
+}

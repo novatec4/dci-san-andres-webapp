@@ -1,0 +1,879 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-001",
+        "nombre": "E.S. Ruta 35",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.604647,
+        "longitud": -78.695294,
+        "utm_este_x": 756425.8,
+        "utm_norte_y": 9822493.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.695294,
+          -1.604647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-002",
+        "nombre": "E.S. San Andr\u00e9s",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.571309,
+        "longitud": -78.717715,
+        "utm_este_x": 753933.9,
+        "utm_norte_y": 9826183.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.717715,
+          -1.571309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-003",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.48745,
+        "longitud": -78.71275,
+        "utm_este_x": 754496.5,
+        "utm_norte_y": 9835459.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71275,
+          -1.48745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-004",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.575105,
+        "longitud": -78.71631,
+        "utm_este_x": 754089.8,
+        "utm_norte_y": 9825763.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71631,
+          -1.575105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-005",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.585627,
+        "longitud": -78.711624,
+        "utm_este_x": 754610.2,
+        "utm_norte_y": 9824599.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711624,
+          -1.585627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-006",
+        "nombre": "UPC San Andr\u00e9s",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.585562,
+        "longitud": -78.711762,
+        "utm_este_x": 754594.8,
+        "utm_norte_y": 9824606.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711762,
+          -1.585562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-007",
+        "nombre": "Restaurante caf\u00e9 de la hacienda",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.567605,
+        "longitud": -78.718371,
+        "utm_este_x": 753861.3,
+        "utm_norte_y": 9826593.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.718371,
+          -1.567605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-008",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.515684,
+        "longitud": -78.712289,
+        "utm_este_x": 754544.5,
+        "utm_norte_y": 9832336.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.712289,
+          -1.515684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-009",
+        "nombre": "Iglesia Cat\u00f3lica de Tuntatacto",
+        "categoria": "Lugar de Culto (Iglesia / Capilla)",
+        "latitud": -1.529404,
+        "longitud": -78.721722,
+        "utm_este_x": 753492.8,
+        "utm_norte_y": 9830820.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.721722,
+          -1.529404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-010",
+        "nombre": "Iglesia Cat\u00f3lica de Lourdes de Batzac\u00f3n",
+        "categoria": "Lugar de Culto (Iglesia / Capilla)",
+        "latitud": -1.598112,
+        "longitud": -78.715841,
+        "utm_este_x": 754139.2,
+        "utm_norte_y": 9823218.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.715841,
+          -1.598112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-011",
+        "nombre": "Iglesia Cat\u00f3lica de Cochapamba",
+        "categoria": "Lugar de Culto (Iglesia / Capilla)",
+        "latitud": -1.516547,
+        "longitud": -78.70653,
+        "utm_este_x": 755185.5,
+        "utm_norte_y": 9832240.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.70653,
+          -1.516547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-012",
+        "nombre": "Unidad Educativa Tuntatacto",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.529717,
+        "longitud": -78.722542,
+        "utm_este_x": 753401.5,
+        "utm_norte_y": 9830785.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.722542,
+          -1.529717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-013",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.629255,
+        "longitud": -78.686233,
+        "utm_este_x": 757431.3,
+        "utm_norte_y": 9819770.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.686233,
+          -1.629255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-014",
+        "nombre": "EDS Sierra Centro",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.582034,
+        "longitud": -78.713172,
+        "utm_este_x": 754438.2,
+        "utm_norte_y": 9824997.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.713172,
+          -1.582034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-015",
+        "nombre": "Las 3 piedras",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.565265,
+        "longitud": -78.720111,
+        "utm_este_x": 753667.9,
+        "utm_norte_y": 9826852.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.720111,
+          -1.565265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-016",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.588759,
+        "longitud": -78.707792,
+        "utm_este_x": 755036.3,
+        "utm_norte_y": 9824252.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.707792,
+          -1.588759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-017",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.529449,
+        "longitud": -78.721092,
+        "utm_este_x": 753562.8,
+        "utm_norte_y": 9830814.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.721092,
+          -1.529449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-018",
+        "nombre": "Iglesia Cat\u00f3lica de San Andr\u00e9s",
+        "categoria": "Lugar de Culto (Iglesia / Capilla)",
+        "latitud": -1.591111,
+        "longitud": -78.700815,
+        "utm_este_x": 755812.7,
+        "utm_norte_y": 9823991.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.700815,
+          -1.591111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-019",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.613418,
+        "longitud": -78.707817,
+        "utm_este_x": 755030.6,
+        "utm_norte_y": 9821524.6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.707817,
+          -1.613418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-020",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.574535,
+        "longitud": -78.71656,
+        "utm_este_x": 754062.1,
+        "utm_norte_y": 9825827.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.71656,
+          -1.574535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-021",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.571404,
+        "longitud": -78.756218,
+        "utm_este_x": 749647.6,
+        "utm_norte_y": 9826178.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.756218,
+          -1.571404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-022",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.575408,
+        "longitud": -78.716165,
+        "utm_este_x": 754105.9,
+        "utm_norte_y": 9825730.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.716165,
+          -1.575408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-023",
+        "nombre": "Colegio Nacional San Andres",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.593522,
+        "longitud": -78.694448,
+        "utm_este_x": 756521.3,
+        "utm_norte_y": 9823723.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.694448,
+          -1.593522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-024",
+        "nombre": "Infraestructura Comunitaria (San Andr\u00e9s)",
+        "categoria": "Infraestructura Comunitaria",
+        "latitud": -1.538394,
+        "longitud": -78.732535,
+        "utm_este_x": 752287.9,
+        "utm_norte_y": 9829826.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.732535,
+          -1.538394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-025",
+        "nombre": "Iglesia Cat\u00f3lica de Pulingu\u00ed",
+        "categoria": "Lugar de Culto (Iglesia / Capilla)",
+        "latitud": -1.565126,
+        "longitud": -78.751112,
+        "utm_este_x": 750216.8,
+        "utm_norte_y": 9826872.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.751112,
+          -1.565126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-026",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.597541,
+        "longitud": -78.713781,
+        "utm_este_x": 754368.5,
+        "utm_norte_y": 9823281.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.713781,
+          -1.597541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-027",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.569493,
+        "longitud": -78.746612,
+        "utm_este_x": 750717.3,
+        "utm_norte_y": 9826388.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.746612,
+          -1.569493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-028",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.583687,
+        "longitud": -78.694673,
+        "utm_este_x": 756497.4,
+        "utm_norte_y": 9824811.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.694673,
+          -1.583687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-029",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.573611,
+        "longitud": -78.720624,
+        "utm_este_x": 753609.7,
+        "utm_norte_y": 9825929.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.720624,
+          -1.573611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-030",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.583683,
+        "longitud": -78.694674,
+        "utm_este_x": 756497.3,
+        "utm_norte_y": 9824812.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.694674,
+          -1.583683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-031",
+        "nombre": "Unidad Educativa San Isidro",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.586054,
+        "longitud": -78.689822,
+        "utm_este_x": 757037.2,
+        "utm_norte_y": 9824549.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.689822,
+          -1.586054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-032",
+        "nombre": "Escuela de Educacion Basica Jos\u00e9 de San Mart\u00edn",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.611692,
+        "longitud": -78.710284,
+        "utm_este_x": 754756.2,
+        "utm_norte_y": 9821715.9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.710284,
+          -1.611692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-033",
+        "nombre": "Unidad Educativa Batzac\u00f3n",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.596093,
+        "longitud": -78.718153,
+        "utm_este_x": 753882.0,
+        "utm_norte_y": 9823442.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.718153,
+          -1.596093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-034",
+        "nombre": "Unidad Educativa San Pablo",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.560153,
+        "longitud": -78.723229,
+        "utm_este_x": 753321.4,
+        "utm_norte_y": 9827418.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.723229,
+          -1.560153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-035",
+        "nombre": "Escuela de Educaci\u00f3n Basica Bol\u00edvar Chiriboga Baquero",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.556672,
+        "longitud": -78.73469,
+        "utm_este_x": 752045.9,
+        "utm_norte_y": 9827805.1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.73469,
+          -1.556672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-036",
+        "nombre": "Escuela de Educaci\u00f3n Basica Republica Federal de Alemania",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.552744,
+        "longitud": -78.744008,
+        "utm_este_x": 751009.1,
+        "utm_norte_y": 9828240.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.744008,
+          -1.552744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-037",
+        "nombre": "Unidad Educativa 11 de Noviembre",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.565169,
+        "longitud": -78.751821,
+        "utm_este_x": 750137.8,
+        "utm_norte_y": 9826867.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.751821,
+          -1.565169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-038",
+        "nombre": "Escuela de Educaci\u00f3n Basica 9 de Octubre",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.55209,
+        "longitud": -78.760141,
+        "utm_este_x": 749213.2,
+        "utm_norte_y": 9828315.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.760141,
+          -1.55209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-039",
+        "nombre": "Escuela de Educaci\u00f3n Basica Flavio Alfaro",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.542493,
+        "longitud": -78.752801,
+        "utm_este_x": 750031.4,
+        "utm_norte_y": 9829375.7
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.752801,
+          -1.542493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-040",
+        "nombre": "Escuela de Educaci\u00f3n Basica Nevado Chimborazo",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.523019,
+        "longitud": -78.755778,
+        "utm_este_x": 749702.3,
+        "utm_norte_y": 9831530.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.755778,
+          -1.523019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-041",
+        "nombre": "Escuela de Educaci\u00f3n Basica Pedro Pablo Pastor Vera",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.51067,
+        "longitud": -78.741027,
+        "utm_este_x": 751345.9,
+        "utm_norte_y": 9832894.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.741027,
+          -1.51067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-042",
+        "nombre": "Unidad Educativa Tuntatacto",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.530297,
+        "longitud": -78.722736,
+        "utm_este_x": 753379.7,
+        "utm_norte_y": 9830721.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.722736,
+          -1.530297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-043",
+        "nombre": "Escuela de Educaci\u00f3n Basica Ciudad de Macas",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.516568,
+        "longitud": -78.70596,
+        "utm_este_x": 755249.0,
+        "utm_norte_y": 9832238.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.70596,
+          -1.516568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-044",
+        "nombre": "Escuela de Educaci\u00f3n B\u00e1sica Reino de Belgica",
+        "categoria": "Educaci\u00f3n (Escuela / Colegio)",
+        "latitud": -1.621254,
+        "longitud": -78.679366,
+        "utm_este_x": 758196.7,
+        "utm_norte_y": 9820654.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.679366,
+          -1.621254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-045",
+        "nombre": "SSC PULINGUI",
+        "categoria": "Salud (Centro / Puesto de Salud)",
+        "latitud": -1.565448,
+        "longitud": -78.751524,
+        "utm_este_x": 750170.9,
+        "utm_norte_y": 9826836.3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.751524,
+          -1.565448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_poi": "POI-SA-046",
+        "nombre": "Recreaci\u00f3n (Cancha / Parque) (San Andr\u00e9s)",
+        "categoria": "Recreaci\u00f3n (Cancha / Parque)",
+        "latitud": -1.581266,
+        "longitud": -78.742462,
+        "utm_este_x": 751177.8,
+        "utm_norte_y": 9825085.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.742462,
+          -1.581266
+        ]
+      }
+    }
+  ]
+}

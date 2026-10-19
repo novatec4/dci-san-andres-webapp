@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificación de Credencial Oficial | Operación DCI San Andrés - Ayuda en Acción / ESPOCH</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #002B49;
+      --accent: #E8734A;
+      --success: #10B981;
+      --bg: #F1F5F9;
+      --card: #FFFFFF;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #CBD5E1;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+    }
+
+    .header-nav {
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .header-nav a {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .header-nav span {
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 500px;
+      background: var(--card);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px -5px rgba(0, 43, 73, 0.12), 0 8px 10px -6px rgba(0, 43, 73, 0.08);
+      border: 1px solid rgba(203, 213, 225, 0.6);
+      position: relative;
+    }
+
+    .card-banner {
+      background: linear-gradient(135deg, var(--primary) 0%, #004273 100%);
+      padding: 24px 20px 20px 20px;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+
+    .card-banner::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      height: 20px;
+      background: var(--card);
+      border-radius: 20px 20px 0 0;
+    }
+
+    .inst-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      color: #FFB38A;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .op-title {
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 6px;
+    }
+
+    .sub-op {
+      font-size: 11.5px;
+      color: #CBD5E1;
+      font-weight: 500;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ECFDF5;
+      color: #065F46;
+      border: 1.5px solid #10B981;
+      padding: 8px 18px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      margin: 10px auto 16px auto;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
+    }
+
+    .status-badge i {
+      color: #10B981;
+      font-size: 15px;
+    }
+
+    .body-content {
+      padding: 10px 24px 24px 24px;
+    }
+
+    .avatar-box {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+      background: #F8FAFC;
+      padding: 14px;
+      border-radius: 14px;
+      border: 1px solid #E2E8F0;
+    }
+
+    .avatar-circle {
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #002B49, #E8734A);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 26px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 10px rgba(0, 43, 73, 0.2);
+    }
+
+    .brig-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.25;
+      margin-bottom: 4px;
+    }
+
+    .brig-code {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .info-item {
+      background: white;
+      border: 1px solid #E2E8F0;
+      padding: 10px 14px;
+      border-radius: 10px;
+    }
+
+    .info-label {
+      font-size: 10.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-muted);
+      font-weight: 700;
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .info-value {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #0F172A;
+    }
+
+    .qr-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      background: #F8FAFC;
+      border-radius: 16px;
+      border: 1px dashed #CBD5E1;
+      margin-bottom: 20px;
+    }
+
+    .qr-svg {
+      width: 140px;
+      height: 140px;
+      background: white;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 10px;
+    }
+
+    .qr-hint {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .selector-box {
+      margin-bottom: 20px;
+      padding: 12px;
+      background: #EFF6FF;
+      border-radius: 12px;
+      border: 1px solid #BFDBFE;
+    }
+
+    .selector-box label {
+      display: block;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #1E40AF;
+      margin-bottom: 6px;
+    }
+
+    .selector-box select {
+      width: 100%;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #93C5FD;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1E293B;
+      background: white;
+      cursor: pointer;
+    }
+
+    .footer-security {
+      border-top: 1px solid #E2E8F0;
+      padding-top: 16px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .footer-security strong {
+      color: var(--primary);
+    }
+
+    .btn-action {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 13.5px;
+      margin-top: 14px;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-action:hover {
+      background: #004273;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+      margin-top: 8px;
+    }
+
+    .btn-outline:hover {
+      background: #F1F5F9;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .header-nav, .selector-box, .btn-action, .btn-outline {
+        display: none !important;
+      }
+      .card {
+        box-shadow: none;
+        border: 2px solid #002B49;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navegación superior -->
+  <div class="header-nav">
+    <a href="index.html#gis"><i class="fa-solid fa-map-location-dot"></i> Ir al Mapa Web GIS</a>
+    <span>VERSIÓN v2.5.0 OFICIAL</span>
+  </div>
+
+  <!-- Tarjeta de Credencial -->
+  <div class="card">
+    <div class="card-banner" style="background: linear-gradient(135deg, #2D1A12 0%, #3C2415 50%, #C85A32 100%); border-bottom: 2px solid var(--accent);">
+      <div class="inst-title" style="color: #F09070;">CONVENIO ESPOCH – FUNDACIÓN AYUDA EN ACCIÓN</div>
+      <div class="op-title">ACREDITACIÓN OFICIAL DE CAMPO</div>
+      <div class="sub-op">Componente A.3.1 – Operación Estadística DCI San Andrés (0 a 5 años)</div>
+    </div>
+
+    <div class="body-content">
+      
+      <!-- Selector para simular cualquier brigadista -->
+      <div class="selector-box">
+        <label for="brig-select"><i class="fa-solid fa-users"></i> Consultar Acreditación de Brigadista:</label>
+        <select id="brig-select" onchange="cambiarBrigadista(this.value)">
+          <!-- Opciones dinámicas -->
+        </select>
+      </div>
+
+      <!-- Badge de Estado -->
+      <div style="text-align: center;">
+        <div class="status-badge" id="badge-estado">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>ACREDITACIÓN OFICIAL VIGENTE</span>
+        </div>
+      </div>
+
+      <!-- Bloque de Identidad -->
+      <div class="avatar-box">
+        <div class="avatar-circle">
+          <i class="fa-solid fa-user-doctor"></i>
+        </div>
+        <div>
+          <div class="brig-name" id="brig-name">DANIELA ALEJANDRA BALSECA QUESADA</div>
+          <div class="brig-code">
+            <i class="fa-solid fa-id-badge"></i>
+            <span id="brig-id">ESPOCH-BRIG-01</span> • <span id="brig-cedula">185094****</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grilla de Información -->
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label"><i class="fa-solid fa-graduation-cap"></i> Institución y Carrera</div>
+          <div class="info-value" id="brig-carrera">Nutrición y Dietética - ESPOCH (PAO 6)</div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-label"><i class="fa-solid fa-briefcase"></i> Función Asignada</div>
+          <div class="info-value" id="brig-rol">Antropometrista Principal / Supervisor de Dupla</div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+          <div class="info-item">
+            <div class="info-label"><i class="fa-solid fa-user-group"></i> Dupla Censal</div>
+            <div class="info-value" id="brig-dupla" style="color: var(--accent); font-weight: 800;">Dupla D01</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label"><i class="fa-solid fa-calendar-check"></i> Vigencia</div>
+            <div class="info-value" id="brig-vigencia">21 Sep - 13 Nov 2026</div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+          <div class="info-item">
+            <div class="info-label"><i class="fa-solid fa-location-dot"></i> Zona Logística</div>
+            <div class="info-value" id="brig-zona">San Andrés Centro</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label"><i class="fa-solid fa-crosshairs"></i> Coordenadas Sector</div>
+            <div class="info-value" id="brig-coords" style="color: var(--accent); font-weight: 700; font-family: monospace;">-1.5917, -78.7017</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Código QR Renderizado -->
+      <div class="qr-container">
+        <div class="qr-svg" id="qr-display">
+          <!-- SVG QR Dinámico -->
+        </div>
+        <div class="qr-hint">
+          <i class="fa-solid fa-qrcode"></i> Escanee con la cámara para revalidar la identidad en la plataforma Web GIS
+        </div>
+      </div>
+
+      <!-- Botones de Acción -->
+      <button class="btn-action" onclick="window.print()">
+        <i class="fa-solid fa-print"></i> Imprimir Credencial / Gafete Oficial
+      </button>
+
+      <a id="btn-ver-mapa-gis" href="index.html?module=gis&lat=-1.5917&lng=-78.7017&zone=San+Andres" class="btn-action btn-outline">
+        <i class="fa-solid fa-map-location-dot"></i> Ver Coordenadas y Zona de la Dupla en el Mapa GIS
+      </a>
+
+      <!-- Pie de Seguridad LOPDP y CEISH -->
+      <div class="footer-security" style="margin-top: 20px;">
+        <p><strong>Operación Censal DCI A.3.1</strong> autorizada bajo el Convenio Marco ESPOCH - Fundación Ayuda en Acción.</p>
+        <p>Protocolo Bioético con Dictamen Favorable del <strong>CEISH-ESPOCH</strong>. Cumplimiento estricto de la <strong>LOPDP</strong> (cédulas ofuscadas y reserva de identidad infantil).</p>
+        <p style="margin-top: 4px; color: #0284C7;"><i class="fa-solid fa-phone"></i> Mesa de Soporte y Emergencias de Campo: +593 99 823 4512</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/vendor/qrcode.min.js"></script>
+  <script>
+    let brigadistasData = [];
+
+    // Cargar catálogo de brigadistas
+    fetch('data/brigadistas_espoch_dci.json')
+      .then(res => res.json())
+      .then(data => {
+        brigadistasData = data;
+        poblarSelector();
+        
+        // Verificar parámetro en URL (?id=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const reqId = urlParams.get('id') || 'ESPOCH-BRIG-01';
+        renderBrigadista(reqId);
+      })
+      .catch(err => {
+        console.error("Error cargando brigadistas:", err);
+      });
+
+    function poblarSelector() {
+      const select = document.getElementById('brig-select');
+      select.innerHTML = '';
+      brigadistasData.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b.id;
+        opt.textContent = `${b.id} - ${b.nombres} (${b.dupla})`;
+        select.appendChild(opt);
+      });
+    }
+
+    function cambiarBrigadista(id) {
+      // Actualizar URL sin recargar
+      const newUrl = window.location.pathname + '?id=' + id;
+      window.history.pushState({ path: newUrl }, '', newUrl);
+      renderBrigadista(id);
+    }
+
+    function renderBrigadista(id) {
+      const b = brigadistasData.find(item => item.id === id) || brigadistasData[0];
+      if (!b) return;
+
+      document.getElementById('brig-select').value = b.id;
+      document.getElementById('brig-name').textContent = b.nombres;
+      document.getElementById('brig-id').textContent = b.id;
+      document.getElementById('brig-cedula').textContent = b.cedula_ofuscada;
+      document.getElementById('brig-carrera').textContent = `${b.carrera} (${b.pao})`;
+      document.getElementById('brig-rol').textContent = b.rol;
+      document.getElementById('brig-dupla').textContent = b.dupla;
+      document.getElementById('brig-zona').textContent = b.zona_nombre;
+      document.getElementById('brig-vigencia').textContent = b.vigencia;
+
+      // Coordenadas georreferenciadas por sector
+      const coordsMap = {
+        'pulinguí': { lat: -1.5645, lng: -78.7420, str: '-1.5645, -78.7420' },
+        'pulingui': { lat: -1.5645, lng: -78.7420, str: '-1.5645, -78.7420' },
+        'trencilla': { lat: -1.5830, lng: -78.7350, str: '-1.5830, -78.7350' },
+        'gualiqueme': { lat: -1.5598, lng: -78.7232, str: '-1.5598, -78.7232' },
+        'san pablo': { lat: -1.5720, lng: -78.7180, str: '-1.5720, -78.7180' },
+        'los pinos': { lat: -1.5950, lng: -78.7080, str: '-1.5950, -78.7080' },
+        'batzacón': { lat: -1.6080, lng: -78.6980, str: '-1.6080, -78.6980' },
+        'batzacon': { lat: -1.6080, lng: -78.6980, str: '-1.6080, -78.6980' },
+        'calshi': { lat: -1.5680, lng: -78.7120, str: '-1.5680, -78.7120' }
+      };
+
+      let coordData = { lat: -1.5917, lng: -78.7017, str: '-1.5917, -78.7017' };
+      const zn = (b.zona_nombre || '').toLowerCase();
+      for (const [k, v] of Object.entries(coordsMap)) {
+        if (zn.includes(k)) {
+          coordData = v;
+          break;
+        }
+      }
+
+      const coordsEl = document.getElementById('brig-coords');
+      if (coordsEl) coordsEl.textContent = coordData.str;
+
+      const mapBtn = document.getElementById('btn-ver-mapa-gis');
+      if (mapBtn) {
+        mapBtn.href = `index.html?module=gis&lat=${coordData.lat}&lng=${coordData.lng}&zone=${encodeURIComponent(b.zona_nombre)}`;
+      }
+
+      renderQR(b.id);
+    }
+
+    function renderQR(id) {
+      const qrBox = document.getElementById('qr-display');
+      qrBox.innerHTML = '';
+      const verifyUrl = window.location.origin + window.location.pathname + '?id=' + encodeURIComponent(id);
+      
+      if (typeof QRCode !== 'undefined') {
+        try {
+          new QRCode(qrBox, {
+            text: verifyUrl,
+            width: 140,
+            height: 140,
+            colorDark: "#2D1A12",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H
+          });
+          return;
+        } catch (e) {
+          console.warn('Fallback QR rendering:', e);
+        }
+      }
+      
+      // Fallback offline SVG / text
+      qrBox.innerHTML = `
+        <div style="font-size:12px;color:#2D1A12;font-weight:700;padding:10px;text-align:center;">
+          <div>${id}</div>
+          <div style="font-size:10px;color:#64748B;margin-top:4px;">Acreditado CEISH-ESPOCH</div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

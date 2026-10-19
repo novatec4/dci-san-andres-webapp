@@ -1,0 +1,1127 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-01",
+        "nombre": "Barrio San Andr\u00e9s Centro",
+        "tipo": "Barrio Urbano (Cabecera)",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s / GAD Parroquial",
+        "latitud": -1.5917,
+        "longitud": -78.7017,
+        "utm_este_x": 755714.2,
+        "utm_norte_y": 9823926.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7017,
+          -1.5917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-02",
+        "nombre": "Barrio Los Pinos",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.5902,
+        "longitud": -78.6985,
+        "utm_este_x": 756070.6,
+        "utm_norte_y": 9824091.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6985,
+          -1.5902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-03",
+        "nombre": "Barrio La Cruz",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.588,
+        "longitud": -78.7035,
+        "utm_este_x": 755514.2,
+        "utm_norte_y": 9824335.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7035,
+          -1.588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-04",
+        "nombre": "Barrio Santa Rosa",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.5945,
+        "longitud": -78.7002,
+        "utm_este_x": 755880.8,
+        "utm_norte_y": 9823616.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7002,
+          -1.5945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-05",
+        "nombre": "Barrio Panader\u00eda",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.5925,
+        "longitud": -78.706,
+        "utm_este_x": 755235.4,
+        "utm_norte_y": 9823838.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.706,
+          -1.5925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-06",
+        "nombre": "Barrio Chimborazo",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.5895,
+        "longitud": -78.708,
+        "utm_este_x": 755013.1,
+        "utm_norte_y": 9824170.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.708,
+          -1.5895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-07",
+        "nombre": "Barrio C\u00e9sar Naveda",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.596,
+        "longitud": -78.697,
+        "utm_este_x": 756236.9,
+        "utm_norte_y": 9823450.1,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.697,
+          -1.596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-08",
+        "nombre": "Barrio El Calvario",
+        "tipo": "Barrio Urbano",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Escuela Central San Andr\u00e9s",
+        "latitud": -1.598,
+        "longitud": -78.704,
+        "utm_este_x": 755457.4,
+        "utm_norte_y": 9823229.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.704,
+          -1.598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-09",
+        "nombre": "Comunidad Tuntatacto",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "U.E. Tuntatacto / Casa Comunal",
+        "latitud": -1.5296,
+        "longitud": -78.7221,
+        "utm_este_x": 753450.7,
+        "utm_norte_y": 9830798.3,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7221,
+          -1.5296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-10",
+        "nombre": "Comunidad Batzac\u00f3n",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 3 - Eje Panamericana Sur",
+        "estacion_tem": "Casa Comunal Batzac\u00f3n / Capilla",
+        "latitud": -1.5974,
+        "longitud": -78.7165,
+        "utm_este_x": 754065.9,
+        "utm_norte_y": 9823297.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7165,
+          -1.5974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-11",
+        "nombre": "Comunidad Pulingu\u00ed",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Escuela Pulingu\u00ed / Casa Comunal",
+        "latitud": -1.5654,
+        "longitud": -78.7508,
+        "utm_este_x": 750251.5,
+        "utm_norte_y": 9826841.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7508,
+          -1.5654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-12",
+        "nombre": "Comunidad Tunsalao (Pulingui)",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Tunsalao",
+        "latitud": -1.582,
+        "longitud": -78.74,
+        "utm_este_x": 751451.8,
+        "utm_norte_y": 9825004.1,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.74,
+          -1.582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-13",
+        "nombre": "Comunidad Cuatro Esquinas",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 5 - Eje Central Agr\u00edcola",
+        "estacion_tem": "Casa Comunal Cuatro Esquinas",
+        "latitud": -1.5667,
+        "longitud": -78.7333,
+        "utm_este_x": 752199.4,
+        "utm_norte_y": 9826695.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-14",
+        "nombre": "Comunidad Calshi",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 6 - Eje Calshi",
+        "estacion_tem": "Casa Comunal Calshi / Escuela",
+        "latitud": -1.5525,
+        "longitud": -78.7436,
+        "utm_este_x": 751054.5,
+        "utm_norte_y": 9828267.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7436,
+          -1.5525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-15",
+        "nombre": "Comunidad La Silveria",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 6 - Eje Calshi",
+        "estacion_tem": "Casa Comunal La Silveria",
+        "latitud": -1.5429,
+        "longitud": -78.752,
+        "utm_este_x": 750120.6,
+        "utm_norte_y": 9829330.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.752,
+          -1.5429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-16",
+        "nombre": "Comunidad Santa Luc\u00eda de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 7 - Eje Norte Chuquipogyo",
+        "estacion_tem": "Escuela Santa Luc\u00eda",
+        "latitud": -1.5198,
+        "longitud": -78.7597,
+        "utm_este_x": 749266.1,
+        "utm_norte_y": 9831886.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7597,
+          -1.5198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-17",
+        "nombre": "Comunidad San Rafael de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 7 - Eje Norte Chuquipogyo",
+        "estacion_tem": "Casa Comunal San Rafael",
+        "latitud": -1.5104,
+        "longitud": -78.7401,
+        "utm_este_x": 751449.1,
+        "utm_norte_y": 9832924.3,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7401,
+          -1.5104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-18",
+        "nombre": "Comunidad Santa Rosa de Chuquipogyo",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 7 - Eje Norte Chuquipogyo",
+        "estacion_tem": "Capilla Chuquipogyo",
+        "latitud": -1.515,
+        "longitud": -78.748,
+        "utm_este_x": 750569.1,
+        "utm_norte_y": 9832416.3,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.748,
+          -1.515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-19",
+        "nombre": "Comunidad Urbina",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 7 - Eje Norte Chuquipogyo",
+        "estacion_tem": "Estaci\u00f3n de Tren Urbina / Casa Comunal",
+        "latitud": -1.5,
+        "longitud": -78.7333,
+        "utm_este_x": 752207.3,
+        "utm_norte_y": 9834073.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7333,
+          -1.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-20",
+        "nombre": "Comunidad Cochapamba",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Casa Comunal Cochapamba",
+        "latitud": -1.516,
+        "longitud": -78.7086,
+        "utm_este_x": 754955.1,
+        "utm_norte_y": 9832301.1,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7086,
+          -1.516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-21",
+        "nombre": "Comunidad Paquibug San Gerardo",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 5 - Eje Central Agr\u00edcola",
+        "estacion_tem": "Casa Comunal San Gerardo",
+        "latitud": -1.5572,
+        "longitud": -78.7341,
+        "utm_este_x": 752111.5,
+        "utm_norte_y": 9827746.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7341,
+          -1.5572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-22",
+        "nombre": "Comunidad Paquibug San Pablo",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 5 - Eje Central Agr\u00edcola",
+        "estacion_tem": "Casa Comunal San Pablo",
+        "latitud": -1.5592,
+        "longitud": -78.7235,
+        "utm_este_x": 753291.3,
+        "utm_norte_y": 9827524.2,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7235,
+          -1.5592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-23",
+        "nombre": "Comunidad Langos San Andr\u00e9s",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Casa Comunal Langos",
+        "latitud": -1.615,
+        "longitud": -78.685,
+        "utm_este_x": 757570.3,
+        "utm_norte_y": 9821346.8,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.685,
+          -1.615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-24",
+        "nombre": "Comunidad La Paz",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Casa Comunal La Paz",
+        "latitud": -1.608,
+        "longitud": -78.691,
+        "utm_este_x": 756903.3,
+        "utm_norte_y": 9822121.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.691,
+          -1.608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-25",
+        "nombre": "Comunidad Uchanchi",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 3 - Eje Panamericana Sur",
+        "estacion_tem": "Casa Comunal Uchanchi",
+        "latitud": -1.6119,
+        "longitud": -78.7157,
+        "utm_este_x": 754153.2,
+        "utm_norte_y": 9821693.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7157,
+          -1.6119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-26",
+        "nombre": "Comunidad Sigsipamba",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Sede Sigsipamba",
+        "latitud": -1.6122,
+        "longitud": -78.6959,
+        "utm_este_x": 756357.3,
+        "utm_norte_y": 9821657.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6959,
+          -1.6122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-27",
+        "nombre": "Comunidad Miraflores",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Casa Comunal Miraflores",
+        "latitud": -1.599,
+        "longitud": -78.692,
+        "utm_este_x": 756793.1,
+        "utm_norte_y": 9823117.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.692,
+          -1.599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-28",
+        "nombre": "Comunidad San Isidro",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Capilla San Isidro",
+        "latitud": -1.5841,
+        "longitud": -78.6892,
+        "utm_este_x": 757106.6,
+        "utm_norte_y": 9824765.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6892,
+          -1.5841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-29",
+        "nombre": "Comunidad El Carmen",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 1 - Cabecera Urbana",
+        "estacion_tem": "Sede El Carmen",
+        "latitud": -1.6231,
+        "longitud": -78.6793,
+        "utm_este_x": 758203.9,
+        "utm_norte_y": 9820450.0,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6793,
+          -1.6231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-30",
+        "nombre": "Comunidad Laturum",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Laturum",
+        "latitud": -1.571,
+        "longitud": -78.745,
+        "utm_este_x": 750896.5,
+        "utm_norte_y": 9826221.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.745,
+          -1.571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-31",
+        "nombre": "Comunidad Tagualag",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Tagualag",
+        "latitud": -1.562,
+        "longitud": -78.741,
+        "utm_este_x": 751342.8,
+        "utm_norte_y": 9827216.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.741,
+          -1.562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-32",
+        "nombre": "Comunidad Sanjabamba",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 6 - Eje Calshi",
+        "estacion_tem": "Casa Comunal Sanjabamba",
+        "latitud": -1.548,
+        "longitud": -78.738,
+        "utm_este_x": 751678.5,
+        "utm_norte_y": 9828764.8,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.738,
+          -1.548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-33",
+        "nombre": "Comunidad Tomapampa",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 6 - Eje Calshi",
+        "estacion_tem": "Casa Comunal Tomapampa",
+        "latitud": -1.535,
+        "longitud": -78.746,
+        "utm_este_x": 750789.4,
+        "utm_norte_y": 9830203.8,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.746,
+          -1.535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-34",
+        "nombre": "Comunidad 12 de Octubre",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Sede 12 de Octubre",
+        "latitud": -1.525,
+        "longitud": -78.735,
+        "utm_este_x": 752015.1,
+        "utm_norte_y": 9831308.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.735,
+          -1.525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-35",
+        "nombre": "Comunidad El Quinual",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Capilla El Quinual",
+        "latitud": -1.538,
+        "longitud": -78.718,
+        "utm_este_x": 753906.1,
+        "utm_norte_y": 9829868.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.718,
+          -1.538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-36",
+        "nombre": "Comunidad Hierba Buena",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Casa Comunal Hierba Buena",
+        "latitud": -1.545,
+        "longitud": -78.728,
+        "utm_este_x": 752792.0,
+        "utm_norte_y": 9829095.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-37",
+        "nombre": "Comunidad La Esperanza",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 5 - Eje Central Agr\u00edcola",
+        "estacion_tem": "Casa Comunal La Esperanza",
+        "latitud": -1.575,
+        "longitud": -78.725,
+        "utm_este_x": 753122.4,
+        "utm_norte_y": 9825776.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-38",
+        "nombre": "Comunidad Llio (Llin Llin)",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Casa Comunal Llin Llin",
+        "latitud": -1.536,
+        "longitud": -78.715,
+        "utm_este_x": 754240.3,
+        "utm_norte_y": 9830089.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.715,
+          -1.536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-39",
+        "nombre": "Comunidad Tatacto",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 2 - Eje Panamericana Norte",
+        "estacion_tem": "Capilla Tatacto",
+        "latitud": -1.532,
+        "longitud": -78.711,
+        "utm_este_x": 754686.1,
+        "utm_norte_y": 9830531.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.711,
+          -1.532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-40",
+        "nombre": "Comunidad El Rosal",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 3 - Eje Panamericana Sur",
+        "estacion_tem": "Casa Comunal El Rosal",
+        "latitud": -1.589,
+        "longitud": -78.728,
+        "utm_este_x": 752786.7,
+        "utm_norte_y": 9824228.3,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.728,
+          -1.589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-41",
+        "nombre": "Comunidad El Progreso",
+        "tipo": "Comunidad Rural",
+        "zona_logistica": "Zona 3 - Eje Panamericana Sur",
+        "estacion_tem": "Sede El Progreso",
+        "latitud": -1.602,
+        "longitud": -78.725,
+        "utm_este_x": 753119.1,
+        "utm_norte_y": 9822789.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.725,
+          -1.602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-42",
+        "nombre": "Comunidad Santa Marianita de Tambohuasha",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Escuela / Casa Comunal Tambohuasha",
+        "latitud": -1.5538,
+        "longitud": -78.7849,
+        "utm_este_x": 746456.9,
+        "utm_norte_y": 9828128.8,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7849,
+          -1.5538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-43",
+        "nombre": "Comunidad La Delicia",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal La Delicia",
+        "latitud": -1.5651,
+        "longitud": -78.7775,
+        "utm_este_x": 747279.3,
+        "utm_norte_y": 9826878.0,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7775,
+          -1.5651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-44",
+        "nombre": "Comunidad Jatari Campesino",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Jatari",
+        "latitud": -1.5803,
+        "longitud": -78.755,
+        "utm_este_x": 749782.2,
+        "utm_norte_y": 9825193.9,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.755,
+          -1.5803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-45",
+        "nombre": "Comunidad Rumicruz",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Rumicruz",
+        "latitud": -1.5721,
+        "longitud": -78.7571,
+        "utm_este_x": 749549.4,
+        "utm_norte_y": 9826101.2,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7571,
+          -1.5721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-46",
+        "nombre": "Comunidad Gaushi Chico",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal Gaushi Chico",
+        "latitud": -1.5941,
+        "longitud": -78.7412,
+        "utm_este_x": 751316.7,
+        "utm_norte_y": 9823665.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7412,
+          -1.5941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-47",
+        "nombre": "Comunidad San Jos\u00e9 de Gaushi",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Casa Comunal San Jos\u00e9 de Gaushi",
+        "latitud": -1.6072,
+        "longitud": -78.7323,
+        "utm_este_x": 752305.8,
+        "utm_norte_y": 9822215.5,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7323,
+          -1.6072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-48",
+        "nombre": "Comunidad Nitiluisa",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 3 - Eje Panamericana Sur",
+        "estacion_tem": "Capilla Nitiluisa",
+        "latitud": -1.6293,
+        "longitud": -78.7219,
+        "utm_este_x": 753460.8,
+        "utm_norte_y": 9819769.6,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7219,
+          -1.6293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-49",
+        "nombre": "Comunidad Chorrera Mirador",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Sede Chorrera Mirador",
+        "latitud": -1.568,
+        "longitud": -78.788,
+        "utm_este_x": 746110.1,
+        "utm_norte_y": 9826558.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.788,
+          -1.568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-50",
+        "nombre": "Comunidad Mauca Corral",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Refugio / Sede Mauca Corral",
+        "latitud": -1.558,
+        "longitud": -78.795,
+        "utm_este_x": 745332.1,
+        "utm_norte_y": 9827665.4,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.795,
+          -1.558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_pdot": "PDOT-51",
+        "nombre": "Comunidad El Cielo",
+        "tipo": "Comunidad Alta Monta\u00f1a",
+        "zona_logistica": "Zona 4 - Faldas del Chimborazo",
+        "estacion_tem": "Sede Comunitaria El Cielo",
+        "latitud": -1.549,
+        "longitud": -78.802,
+        "utm_este_x": 744553.9,
+        "utm_norte_y": 9828661.7,
+        "fuente": "PDOT 2023-2027 GAD San Andr\u00e9s / INEC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.802,
+          -1.549
+        ]
+      }
+    }
+  ]
+}
