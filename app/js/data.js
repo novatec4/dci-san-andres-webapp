@@ -59,11 +59,11 @@ const APP_DATA = {
     totalTargetSanAndres: 647, // Muestra Oficial Etapa San Andrés: 647 niños
     totalTargetGlobal: 1397,   // Muestra Total Convenio (San Andrés 647 + Manglaralto 750)
     totalTarget: 647,
-    viviendasDasimetricas: 5486, // 5.486 techos habitacionales clasificados por K-NN
-    viviendasIA: 5486,
-    asentamientosPDOT: 45,     // 45 Asentamientos Humanos Oficiales PDOT Guano 2023-2027
-    centralidadesPDOT: 45,
-    sectoresOperativos: 3,     // Macro-Sectores: Sector A (221), Sector B (230), Sector C (196)
+    viviendasDasimetricas: 3954, // 5.486 techos habitacionales clasificados por K-NN
+    viviendasIA: 3954,
+    asentamientosPDOT: 32,     // 45 Asentamientos Humanos Oficiales PDOT Guano 2023-2027
+    centralidadesPDOT: 32,
+    sectoresOperativos: 3,     // Macro-Sectores: Sector A (145), Sector B (289), Sector C (213)
     brigadistasTotal: 73       // 73 estudiantes de Nutrición ESPOCH (36 duplas + 1 logística)
   },
 

@@ -56,8 +56,8 @@ const GISModule = {
         <div>
           <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;">
             <h1 style="margin:0;font-size:1.65rem;font-weight:800;color:var(--text-primary);">🗺️ Web GIS Oficial — San Andrés</h1>
-            <span class="badge badge-orange" style="font-weight:700;">5.486 Viviendas Dasimétricas</span>
-            <span class="badge badge-blue" style="font-weight:700;">45 Asentamientos Oficiales PDOT</span>
+            <span class="badge badge-orange" style="font-weight:700;">3.954 Viviendas de Alta Certeza (TFM v57)</span>
+            <span class="badge badge-blue" style="font-weight:700;">32 Comunidades Oficiales (Confirmadas Iván)</span>
             <span class="badge badge-green" style="font-weight:700;">3 Macro-Sectores Operativos</span>
           </div>
           <span style="color:var(--text-secondary);font-size:.85rem;">Cartografía Operativa Oficial: Delimitación Parroquial, Macro-Sectores A/B/C y Enlaces a Formularios KoBoToolbox</span>
@@ -96,7 +96,7 @@ const GISModule = {
           <div class="gis-filter-item">
             <label class="gis-filter-label"><span>📍</span> Asentamiento PDOT (45 Oficiales)</label>
             <select id="gis-filter-community" class="select-styled" style="width:100%;">
-              <option value="">Todos los 45 Asentamientos</option>
+              <option value="">Todas las 32 Comunidades Oficiales</option>
             </select>
           </div>
 
@@ -104,7 +104,7 @@ const GISModule = {
           <div class="gis-filter-item">
             <label class="gis-filter-label"><span>🏷️</span> Tipo de Muestra</label>
             <select id="gis-filter-sample" class="select-styled" style="width:100%;">
-              <option value="">Todas las Viviendas (5.486)</option>
+              <option value="">Todas las Viviendas (3.954)</option>
               <option value="titular">🟢 Muestra Titular (4.370)</option>
               <option value="reserva">🟠 Muestra Reserva (1.116)</option>
             </select>
@@ -265,7 +265,7 @@ const GISModule = {
             <div style="font-size:.7rem;font-weight:700;color:#cbd5e1;margin-bottom:.3rem;text-transform:uppercase;">Equipamiento Comunal:</div>
             <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem;font-size:.78rem;">
               <span style="width:10px;height:10px;border-radius:50%;background:#8b5cf6;border:1.5px solid white;display:inline-block;"></span>
-              <span>45 Asentamientos Oficiales PDOT</span>
+              <span>32 Comunidades Oficiales (Confirmadas Iván)</span>
             </div>
             <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.3rem;font-size:.78rem;">
               <span style="width:10px;height:10px;border-radius:50%;background:#ef4444;border:1.5px solid white;display:inline-block;"></span>
@@ -400,7 +400,7 @@ const GISModule = {
         })
         .catch(e => console.warn('Error cargando anillos de visita', e));
 
-      // 4. Comunidades Oficiales PDOT (45 asentamientos oficiales depurados)
+      // 4. Comunidades Oficiales PDOT (32 comunidades oficiales confirmadas por Iván)
       fetch('/data/gis/comunidades_oficiales_pdot_san_andres.geojson')
         .then(r => r.json())
         .then(data => {
@@ -419,7 +419,7 @@ const GISModule = {
         })
         .catch(e => console.warn('Error cargando POIs', e));
 
-      // 6. Viviendas Oficiales (5,486 techos habitacionales dasimétricos clasificados K-NN)
+      // 6. Viviendas Oficiales (3,954 techos habitacionales dasimétricos clasificados K-NN)
       fetch('/data/gis/san_andres_viviendas.geojson')
         .then(r => r.json())
         .then(data => {

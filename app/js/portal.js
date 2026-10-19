@@ -125,7 +125,7 @@ const PortalModule = {
                 ${user.zona_nombre || 'Sector A - Centralidades San Andrés'}
               </h3>
               <div style="font-size:0.8rem;color:var(--text-secondary);line-height:1.4;margin-bottom:1rem;">
-                Zona de cobertura: <strong>45 Asentamientos Humanos Oficiales PDOT Guano 2023–2027</strong> (5.486 techos dasimétricos). Operativo concentrado en <strong>5 jornadas de lunes (~4 a 5 niños por jornada)</strong>.
+                Zona de cobertura: <strong>32 Comunidades Oficiales Confirmadas (Ayuda en Acción / PDOT Guano)</strong> (3.954 techos verificados TFM v57). Operativo concentrado en <strong>5 jornadas de lunes (~4 a 5 niños por jornada)</strong>.
               </div>
 
               <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.6rem;background:var(--bg-tertiary);padding:0.75rem;border-radius:8px;border:1px solid var(--border);font-size:0.78rem;">

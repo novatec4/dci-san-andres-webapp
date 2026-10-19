@@ -17,7 +17,7 @@ const DashboardModule = {
     const coveragePct = ((totalChildren / target) * 100).toFixed(1);
     const activeSurveyors = (data.surveyors && data.surveyors.length > 0) ? data.surveyors.length : 73;
     const totalAsentamientos = data.project.asentamientosPDOT || 45;
-    const totalViviendas = data.project.viviendasDasimetricas || 5486;
+    const totalViviendas = data.project.viviendasDasimetricas || 3954;
 
     main.innerHTML = `
       <div class="dashboard-module-view fade-in">
@@ -55,7 +55,7 @@ const DashboardModule = {
                 <div>
                   <div style="font-weight:800;font-size:0.95rem;color:var(--text-primary);">Línea Base Oficial — Operativo de Campo DCI San Andrés</div>
                   <div style="font-size:0.82rem;color:var(--text-secondary);margin-top:2px;">
-                    Meta censal: <strong>647 niños (San Andrés) / 1.397 (Global Contrato)</strong> • Marco muestral: <strong>5.486 techos dasimétricos</strong> en <strong>45 Asentamientos Oficiales PDOT Guano 2023–2027</strong> organizados en <strong>3 Macro-Sectores (A, B y C)</strong>.
+                    Meta censal: <strong>647 niños (San Andrés) / 1.397 (Global Contrato)</strong> • Marco muestral: <strong>5.486 techos dasimétricos</strong> en <strong>32 Comunidades Oficiales Oficiales PDOT Guano 2023–2027</strong> organizados en <strong>3 Macro-Sectores (A, B y C)</strong>.
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ const DashboardModule = {
               <span class="kpi-value" style="font-size:2rem;font-weight:800;color:var(--text-primary);line-height:1;">${totalAsentamientos}</span>
               <span style="font-size:0.95rem;color:var(--text-muted);font-weight:600;">Asentamientos</span>
             </div>
-            <span style="font-size:0.75rem;color:var(--text-muted);">45 Asentamientos PDOT • ${Number(totalViviendas).toLocaleString('es-EC')} techos dasimétricos</span>
+            <span style="font-size:0.75rem;color:var(--text-muted);">32 Comunidades Oficiales • ${Number(totalViviendas).toLocaleString('es-EC')} techos dasimétricos</span>
           </div>
         </div>
 
@@ -228,7 +228,7 @@ const DashboardModule = {
           <div class="story-takeaway-title">
             <span>💡</span> Takeaway Territorial:
           </div>
-          La parroquia San Andrés presenta una dispersión geográfica extrema con el <strong>70% de las 5.486 viviendas dasimétricas</strong> cartografiadas ubicadas por encima de los <strong>3.200 msnm</strong>. La estrategia operativa organiza a las 36 duplas ESPOCH en 3 macro-sectores territoriales para un barrido concentrado en <strong>5 jornadas de lunes (~18 niños por dupla)</strong>, eliminando el sesgo de omisión en comunidades andinas de difícil acceso vial.
+          La parroquia San Andrés presenta una dispersión geográfica extrema con el <strong>70% de las 3.954 viviendas dasimétricas</strong> cartografiadas ubicadas por encima de los <strong>3.200 msnm</strong>. La estrategia operativa organiza a las 36 duplas ESPOCH en 3 macro-sectores territoriales para un barrido concentrado en <strong>5 jornadas de lunes (~18 niños por dupla)</strong>, eliminando el sesgo de omisión en comunidades andinas de difícil acceso vial.
         </div>
 
         <!-- ============================================================
