@@ -28,11 +28,16 @@
     - **Optimización GIS (SWEBOK KA 2):** Implementación de *In-Memory Singleton GeoCache* en `gis.js`, reduciendo la latencia de recarga de 3.5s a <0.05s y 0 consumo repetido de red/CPU.
     - **Service Worker v2.6.0 (SWEBOK KA 5):** Pre-almacenamiento en caché de capas GeoJSON y padrón de brigadistas para operación PWA offline.
     - **Triaje Clínico MSP:** Integración en Dashboard del generador de Ficha Oficial de Referencia al Centro de Salud San Andrés Tipo B (MSP).
-- [x] **v2.6.2 (Saneamiento Catastral PDOT-45, Integración GIS de 3 Macro-Sectores & Cartografía 300 DPI - ACTUAL):**
-    - **TSK-APP-12 (Completada):** Integración de las capas oficiales `comunidades_oficiales_pdot_san_andres.geojson` (45 asentamientos oficiales, 647 niños) y `san_andres_viviendas.geojson` (5,486 techos dasimétricos clasificados K-NN) en `gis.js`.
-    - **Filtros Espaciales Avanzados:** Filtro reactivo por Macro-Sector (Sector A: 16 asents. | 221 niños, Sector B: 14 coms. | 230 niños, Sector C: 15 coms. | 196 niños) y selector con los 45 asentamientos oficiales agrupados en `<optgroup>`.
-    - **Cartografía Oficial 300 DPI:** Generación automatizada de 3 mapas de alta resolución (Zonificación Macro-Sectores, Catastro Dasimétrico y Logística 5 Lunes) incrustados en el Informe Técnico Word y en la carpeta de diagramas del Dossier.
-    - **Service Worker v2.6.2:** Actualización de caché PWA con las nuevas capas vectoriales y assets para operación 100% desconectada en campo.
+- [x] **v2.6.2 (Saneamiento Catastral PDOT-45, Integración GIS de 3 Macro-Sectores & Cartografía 300 DPI):**
+    - **TSK-APP-12 (Completada):** Integración de las capas oficiales `comunidades_oficiales_pdot_san_andres.geojson` y `san_andres_viviendas.geojson` en `gis.js`.
+    - **Filtros Espaciales Avanzados:** Filtro reactivo por Macro-Sector y selector con asentamientos agrupados en `<optgroup>`.
+    - **Cartografía Oficial 300 DPI:** Generación automatizada de 3 mapas de alta resolución incrustados en el Informe Técnico Word.
+- [x] **v3.2.0 (Saneamiento Integral de Seguridad, Marco 32 Comunidades Oficiales Iván TFM v57, XLSForms Módulo 10, Repositorio Público GitHub & Operativo 5 Lunes - ACTUAL VIGENTE):**
+    - **TSK-SEC-01 (Seguridad Criptográfica):** Erradicación total de contraseñas en texto plano en frontend (`src/services/authStore.js` y `app/js/auth.js`). Implementación de hashing SHA-256 sincrónico con salt (`dci_espoch_salt_2026`) y firma de integridad HMAC en sesión de `localStorage` (`cgpi_session_signature`), impidiendo escalamiento de privilegios por manipulación de roles desde DevTools.
+    - **TSK-REPO-01 (GitHub Público):** Publicación y sincronización oficial en el repositorio público [https://github.com/novatec4/dci-san-andres-webapp](https://github.com/novatec4/dci-san-andres-webapp) bajo la cuenta `novatec4`.
+    - **TSK-GIS-32 (Marco 32 Comunidades Oficiales & Depuración TFM v57):** Reducción y fijación del marco territorial a las **32 comunidades oficiales confirmadas por Iván (`D01`–`D32`)**. Corrección topológica de límites para Tatacto (`D09`), El Progreso (`D15`) y Cóndor Samana (`D32`) al interior de la frontera parroquial. Depuración de 1,532 falsos positivos satelitales según filtros SOTA de TFM v57 (3,954 viviendas de alta certeza: 80% titular, 20% reserva). Cuota dasimétrica calibrada a exactamente 647 niños.
+    - **TSK-KOBO-M10 (XLSForms Módulo 10 y 32 Comunidades):** Actualización de `xlsform_caracterizacion_infantil_v2.xlsx` y `XLSForm_Antropometria_Infantil_v2.xlsx`. En `OP-001` solo se valida cédula de 10 dígitos mediante Módulo 10 en cascada ODK/Enketo. En `GEO-002` se sincronizaron las 32 comunidades oficiales. Ambos validados al 100% con PyXForm 4.5.0.
+    - **TSK-LOG-05 (Logística 5 Lunes, Matriz Excel & Comedor Politécnico):** Matriz oficial para Iván (`MATRIZ_MAESTRA_LOGISTICA_RUTAS_Y_CRONOGRAMA_SAN_ANDRES_2026.xlsx`) con fórmulas `=SUM(H2:H33)` (647) y `=SUM(K2:K33)` (3,954), 3 camionetas 4x4 en circuitos contiguos, cronograma de 5 jornadas de lunes (`26/10`, `09/11`, `16/11`, `23/11`, `07/12/2026`), hoja de control de 76 raciones diarias (380 raciones totales) y oficio formal a la ND. Verónica Delgado.
 
 ## 2. Backlog Exhaustivo y Estado de Tareas de Ingeniería
 
@@ -40,6 +45,11 @@ A continuación se detalla el estado actual del backlog técnico para el agente 
 
 | Código | Tarea de Ingeniería | Prioridad | Estado Actual | Rol Asignado | Archivo(s) Clave |
 | :--- | :--- | :---: | :---: | :---: | :--- |
+| **TSK-SEC-01** | Saneamiento Criptográfico y HMAC en Sesión | Crítica | 🟢 Completada (v3.2.0) | `@systems-architect` | `src/services/authStore.js`, `app/js/auth.js` |
+| **TSK-REPO-01**| Repositorio Público GitHub `novatec4` | Crítica | 🟢 Completada (v3.2.0) | `@systems-architect` | Git Remote `origin/main` |
+| **TSK-GIS-32** | 32 Comunidades Oficiales y Catastro TFM v57 | Crítica | 🟢 Completada (v3.2.0) | `@geo-analyst` | `gis.js`, `comunidades_oficiales_pdot_san_andres.geojson` |
+| **TSK-KOBO-M10**| XLSForms Validación Cédula M10 y 32 Coms | Crítica | 🟢 Completada (v3.2.0) | `@data-scientist` | `xlsform_caracterizacion_infantil_v2.xlsx` |
+| **TSK-LOG-05** | Matriz Logística 5 Lunes, 4x4 y Comedor | Alta | 🟢 Completada (v3.2.0) | `@systems-architect` | `MATRIZ_MAESTRA_LOGISTICA...xlsx`, Oficio Word |
 | **TSK-APP-01** | Sincronización REST API v2 en Vivo con KoBo | Crítica | 🟡 Pendiente | `@web-engineer` | `app/js/kobo_sync.js` |
 | **TSK-APP-02** | Motor de Conciliación Bimodal y Hash SHA-256 | Crítica | 🟡 Pendiente | `@web-engineer` | `app/js/kobo_sync.js`, `app/js/anthro_who.js` |
 | **TSK-APP-03** | Directorio Reactivo 73 Brigadistas (36 Duplas) | Alta | 🟡 Pendiente | `@web-engineer` | `app/js/surveyors.js` |
